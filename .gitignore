@@ -1,0 +1,43 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Editors and IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+
+# Cache and local files
+cache/
+*.duckdb
+*.duckdb.wal
+
+# Build and test artifacts
+build/
+dist/
+*.egg-info/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Generated maps
+*.png
+*.svg
